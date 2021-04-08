@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ec8382;
+  padding: 3%;
+  padding-top: 5%;
+  width: 100vw;
+  display: flex;
+  align-items: baseline;
+  border: 1px solid black;
+}
+
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.5em;
+  clear: both;
+}
+
+.aboutHTML {
+  border: 5px dotted black;
+  padding: 5%;
+  margin: 2%;
+}
+
+h2 {
+  margin-bottom: 3%;
+}
+
+p {
+  margin-top: 2%;
+}
+.infoHTML {
+  margin-left: 5%;
+}
+
+.imageHTML {
+  max-width: 15%;
+  float: left;
+}
+
+.aboutCSS {
+  border: 5px dotted black;
+  padding: 5%;
+  margin: 2%;
+}
+
+.imageCSS {
+  max-width: 20%;
+  float: right;
+}

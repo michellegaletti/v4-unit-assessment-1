@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #89fcd6;
+  padding: 3%;
+  border-top: 1px solid black;
+}
+
+h2 {
+  padding: 0;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/* Rectangles */
+.sections {
+  border: 1px dashed black;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+}
+
+.rectangles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.rect {
+  margin: 2%;
+}
+
+.purpleRec {
+  background-color: #48187f;
+  border: 2px solid red;
+  width: 200px;
+  height: 100px;
+}
+
+.blueRec {
+  background-color: #3d36f8;
+  border: 1px solid black;
+  box-shadow: 8px 8px 8px black;
+  width: 100px;
+  height: 100px;
+}
+
+.pinkRec {
+  background-color: #d77493;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+/* Circles */
+
+.circles {
+  display: inline-block;
+  height: 55vh;
+  padding: 2%;
+}
+
+.circHead {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+}
+
+.circBody {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  top: 65px;
+  left: -25px;
+}
+
+.circFeet {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  top: 65px;
+  left: -50px;
+}
+
+.rock {
+  max-width: 13%;
+}
+
+.eyerock {
+  max-width: 20%;
+  display: inline-block;
+  margin: 5%;
+  position: relative;
+  top: 15px;
+  left: 17px;
+}
+
+.carrot {
+  max-width: 30%;
+  position: relative;
+  left: -40px;
+  top: 40px;
+}
+
+.button {
+  display: flex;
+  margin: 15%;
+  position: relative;
+  left: 40px;
+}
+
+/*Everything*/
+.yellowSquare {
+  background-color: #f5f4de;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+.greenCircle {
+  background-color: #1c7d1a;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.redSquare {
+  background-color: #a22f2e;
+  height: 125px;
+  width: 125px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+p {
+  color: white;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.blueCircle {
+  background-color: #3d36f8;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.fishImage {
+  max-width: 50%;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}

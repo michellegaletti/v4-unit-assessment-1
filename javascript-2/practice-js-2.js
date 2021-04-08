@@ -9,7 +9,8 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition =
+  "A version control system - keep track of updates to our code.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +18,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "Hosting site versions of code";
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +34,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+  description: "Initialize Git repository",
+  code: "git init",
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +45,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+  description: "Cloning a Git repository on your local machine",
+  code: "git clone HTTPS address",
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +56,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+  description: "Checking the status of files",
+  code: "git status",
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +67,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+  description: "Add changed files to staging area",
+  code: "git add . (to add all files) or git add fileName",
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +78,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+  description: "Commit history of changes to Git repo",
+  code: "git commit -m 'Commit Message'",
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +89,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+  description: "Lets you create a remote connection to repository",
+  code: "git remote add origin",
+};
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +100,8 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+  description:
+    "Used to upload local repository content to a remote respository",
+  code: "git push",
+};
